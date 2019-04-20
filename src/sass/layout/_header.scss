@@ -1,0 +1,142 @@
+.header {
+	overflow: hidden;
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	min-height: 50rem;
+	height: 95vh;
+	max-width: 100%;	
+
+	&__content-box {
+		z-index: 100;
+		overflow: hidden;
+		// Absolute center the content box
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+		pointer-events: none;
+
+		@include respond(tab-port) {
+			.heading-primary {
+				font-size: 4rem;
+				margin-left: 1rem;
+				-webkit-text-stroke-width: 2px;
+
+				span {
+					font-size: 9rem;
+					letter-spacing: 1.1rem;
+				}
+			}
+		}
+
+		@include respond(phone) {
+			.heading-primary {
+				font-size: 3rem;
+				margin-left: 1rem;
+				-webkit-text-stroke-width: 1px;
+
+				span {
+					font-size: 8rem;
+					letter-spacing: 0.9rem;
+				}
+			}
+		}
+	}
+
+	&__hex-background {
+	position: relative;
+	z-index: -100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+
+		&-col {
+			
+		}
+
+		&-col--1 {
+			transform: translateX(-20%) translateY(10%) rotate(60deg);
+		}
+
+		&-col--2 {
+			transform: translateX(-1.75%) translateY(-62.75%) rotate(60deg);
+		}
+
+		&-col--3 {
+			transform: translateX(16.5%) translateY(-122.75%) rotate(60deg);
+		}
+
+		&-col--4 {
+			transform: translateX(16.5%) translateY(-207.5%) rotate(60deg);
+		}
+
+		&-col--5 {
+			transform: translateX(16.5%) translateY(-292.25%) rotate(60deg);
+		}
+
+		&-col--6 {
+			transform: translateX(16.5%) translateY(-376.75%) rotate(60deg);
+		}
+
+		&-col--7 {
+			transform: translateX(16.5%) translateY(-461.25%) rotate(60deg);
+		}
+
+		&-col--8 {
+			transform: translateX(16.5%) translateY(-517.25%) rotate(60deg);
+		}
+
+		&-col--9 {
+			transform: translateX(16.5%) translateY(-644.25%) rotate(60deg);
+		}
+
+		&-col--10 {
+			transform: translateX(16.5%) translateY(-728.75%) rotate(60deg);
+		}
+	}
+
+	&__hex {
+		position: relative;
+		transform-origin: 10% 50%;
+		margin-bottom: -2%;
+		transform: rotate(90deg);
+		min-width: 19.6rem;
+		opacity: 0.3;
+		
+		&--top {
+			width: 0; 
+			height: 0;
+			border-bottom: 5.7692308vw solid white;
+			border-right: 10vw solid transparent;
+			border-left: 10vw solid transparent;
+		}
+
+		&--middle {
+			width: $hex-width;
+			height: 0;
+			padding-bottom: calc(#{$hex-width} * 0.57692307);
+			background-color: white;
+		}
+
+		&--bottom {
+			width: 0; 
+			height: 0;
+			border-top: 5.7692308vw solid white;
+			border-right: 10vw solid transparent;
+			border-left: 10vw solid transparent;
+		}
+	}
+
+	&__img-background {
+		overflow: hidden;
+	  	background-repeat: no-repeat;
+		position: absolute;
+		z-index: -200;
+		height: 110vh;
+		width: 100%;
+		top: 0;
+		right: 0;
+		
+	}
+}

@@ -1,0 +1,21 @@
+.section-hero {
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	min-height: 65rem;
+	height: 95vh;
+	max-width: 100%;
+
+	@include respond(phone) {
+		min-height: 50rem;
+	}
+
+	&__heading {
+		padding: 5rem 0;
+	}
+
+	&__devices {
+		margin: 0 auto;
+		display: block;
+		max-width: 80rem;
+		width: 80%;
+	}
+}

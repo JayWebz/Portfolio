@@ -1,0 +1,158 @@
+// H2 Letter Spin
+@keyframes spinOdd {
+	0% { transform: perspective(100rem) rotateX(45deg) SkewY(5deg) rotateY(0deg) }
+	100% { transform: perspective(100rem) rotateX(45deg) SkewY(5deg) rotateY(-1079deg) }
+}
+
+@keyframes spinEven {
+	0% { transform: perspective(100rem) rotateX(-45deg) SkewY(-5deg) rotateY(0deg) }
+	100% { transform: perspective(100rem) rotateX(-45deg) SkewY(-5deg) rotateY(1079deg) }
+}
+
+// Starburst Hover
+@keyframes hover {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(3rem); }
+	55% { transform: translateY(3rem); }
+	100% { transform: translateY(0); }
+}
+
+// Starburst Dot Motion
+@keyframes slideBottomRightCircle {
+	0% { margin-top: -11%; }
+	50% { margin-top: 167%; }
+	60% { margin-top: 167%; }
+	100% { margin-top: -11%; }
+}
+
+@keyframes slideTopRightCircle {
+	0% { margin-top: -8%; }
+	50% { margin-top: -187%; }
+	60% { margin-top: -187%; }
+	100% { margin-top: -8%; }
+}
+
+@keyframes slideTopLeftCircle {
+	0% { margin-top: -8%; }
+	50% { margin-top: -177%; }
+	60% { margin-top: -177%; }
+	100% { margin-top: -8%; }
+}
+
+@keyframes slideBottomLeftCircle {
+	0% { margin-top: -8%; }
+	50% { margin-top: 174%; }
+	60% { margin-top: 174%; }
+	100% { margin-top: -8%; }
+}
+
+@keyframes slideTopSectionLeft {
+	0% { margin-left: -12%; }
+	50% { margin-left: 189%; }
+	60% { margin-left: 189%; }
+	100% { margin-left: -12%; }
+}
+
+@keyframes slideTopSectionRight {
+	0% { margin-left: 100%; }
+	50% { margin-left: -105%; }
+	60% { margin-left: -105%; }
+	100% { margin-left: 100%; }
+}
+
+@keyframes slideBottomSectionLeft {
+	0% { margin-left: -12%; }
+	50% { margin-left: 189%; }
+	60% { margin-left: 189%; }
+	100% { margin-left: -12%; }
+}
+
+@keyframes slideBottomSectionRight {
+	0% { margin-left: 100%; }
+	50% { margin-left: -105%; }
+	60% { margin-left: -105%; }
+	100% { margin-left: 100%; }
+}
+
+@keyframes slideLeftSectionTop {
+	0% { margin-left: -12%; }
+	50% { margin-left: 160%; }
+	60% { margin-left: 160%; }
+	100% { margin-left: -12%; }
+}
+
+@keyframes slideLeftSectionBottom {
+	0% { margin-left: 100%; }
+	50% { margin-left: -86%; }
+	60% { margin-left: -86%; }
+	100% { margin-left: 100%; }
+}
+
+@keyframes slideRightSectionTop {
+	0% { margin-left: -12%; }
+	50% { margin-left: 174%; }
+	60% { margin-left: 174%; }
+	100% { margin-left: -12%; }
+}
+
+@keyframes slideRightSectionBottom {
+	0% { margin-left: 100%; }
+	50% { margin-left: -79%; }
+	60% { margin-left: -79%; }
+	100% { margin-left: 100%; }
+}
+
+@keyframes orbit_zAxis {
+	0% { z-index: -1000; }
+	25% { z-index: 1000; }
+	80% { z-index: 1000; }
+	81% { z-index: -1000; }
+	100% { z-index: -1000; }
+}
+// Form Starburst Orbit Motion
+@keyframes orbit {
+	0% {
+		transform: rotateZ(0deg) translateX(12rem) rotateZ(-0deg) rotateX(-45deg) rotateY(-60deg);
+	}
+	100% {
+		transform: rotateZ(360deg) translateX(12rem) rotateZ(-360deg) rotateX(-45deg) rotateY(-60deg);
+	}
+	// 0% {
+	// 	z-index: -100;
+	// 	transform: scale(0.5);
+	// }
+	// 12.5%{
+	// 	z-index: -100;
+	// 	transform: scale(0.75) translate(5rem, 5rem);
+	// }
+	// 25% {
+	// 	z-index: -100;
+	// 	transform: scale(1) translate(10rem, 10rem);
+	// }
+	// 26% {z-index: 100;}
+	// 37.5%{
+	// 	z-index: 100;
+	// 	transform: scale(1.25) translate(5rem, 5rem);
+	// }
+	// 50% {
+	// 	z-index: 100;
+	// 	transform: scale(1.5);
+	// }
+	// 62.5% {
+	// 	z-index: 100;
+	// 	transform: scale(1.25) translate(-5rem, -5rem);
+	// }
+	// 75% {
+	// 	z-index: 100;
+	// 	transform: scale(1) translate(-10rem, -10rem);
+	// }
+	// 76% {z-index: -100;}
+	// 87.5% {
+	// 	z-index: -100;
+	// 	transform: scale(0.75) translate(-5rem, -5rem);
+	// }
+	// 100% {
+	// 	z-index: -100;
+	// 	transform: scale(0.5);
+	// }
+}

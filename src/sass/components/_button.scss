@@ -1,0 +1,102 @@
+.btn {
+	&,
+	&:link, 
+	&:visited {
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 1.5rem 4rem;
+		display: inline-block;
+		border-radius: 10rem;
+		transition: all 0.3s;
+		position: relative;
+		font-size: 1.6rem;
+
+		// Change for the <button> element
+		border: none;
+		cursor: pointer;
+	}
+
+	&:hover {
+		transform: translateY(-1rem);
+		box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+
+		&::after {
+			transform: scaleX(1.4) scaleY(1.6);
+			opacity: 0;
+			/* set initial state for animation */
+			transition: all 0.6s;
+		}
+	}
+
+	&:active,
+	&:focus {
+		outline: none;
+		transform: translateY(-5px);
+		box-shadow: 0 .5rem 1rem rgba($color-black, 0.4);
+	}
+
+	&--white {
+		background-color: $color-white;
+		color: #222;
+
+		&::after {
+			background-color: $color-white;
+		}
+	}
+
+	&--green {
+		background-color: green;
+		color: $color-white;
+
+		&::after {
+			background-color: green;
+		}
+	}
+	/* After pseudo element can be used for adding an element
+	like we already have, but behind the button. Content attribute
+	is always necessary as well as display. It is treated like a
+	child of the button, so it refers to the parent tag. */
+	&::after {
+		content: "";
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		border-radius: 10rem;
+		/* move it behind the original button*/
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+
+	&--animated {
+		animation: moveInBottom 0.5s ease-out .75s;
+		/* automatically apply styles of 0% before animation starts */
+		animation-fill-mode: backwards;
+	}
+}
+
+.btn-text {
+	&:link,
+	&:visited {
+		color: green;
+		display: inline-block;
+		text-decoration: none;
+		border-bottom: 1px solid green;
+		padding: 3px;
+		font-size: 1.6rem;
+		transition: all 0.2s;
+	}
+
+	&:hover {
+		background-color: green;
+		color: $color-white;
+		box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+		transform: translateY(-2px);
+	}
+
+	&:active {
+		box-shadow: 0 0.5rem 1rem rgba($color-black, 0.4);
+		transform: translateY(-2px);
+	}
+}

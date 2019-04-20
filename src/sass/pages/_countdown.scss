@@ -1,0 +1,62 @@
+.countdown {
+	max-width: 100%;
+	overflow-x: hidden; 
+
+	& .section-hero .heading-primary {
+		-webkit-text-stroke-color: $color-black!important;
+	}
+	
+	&__content {
+		background-image: linear-gradient(to right bottom, #ED9D1f, #FFD798 67%);
+		color: $color-black;
+
+		&-wrapper {
+			padding-top: 10rem;
+		}
+
+		.btn {
+			transform: translateX(-50%);
+			margin: 5rem 0 10rem 50%;
+
+			&:hover {
+				transform: translateX(-50%) translateY(-1rem);
+			}
+		}
+	}
+
+	.form-container {
+		background-size: 100%;
+		border-radius: 3px;
+		box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+		margin: 10rem 0 2rem;
+
+		// @include respond(tab-land) {
+		// 	background-image: linear-gradient(105deg, 
+		// 	rgba($color-white, 0.9) 0%, 
+		// 	rgba($color-white, 0.9) 65%, 
+		// 	transparent 65%), 
+		// 	url('../img/nat-10.jpg');
+		// 	background-size: cover;
+		// }
+
+		// @include respond(tab-port) {
+		// 	background-image: linear-gradient(to right, 
+		// 	rgba($color-white, 0.9) 0%, 
+		// 	rgba($color-white, 0.9) 100%), 
+		// 	url('../img/nat-10.jpg');
+		// }
+
+		.form {
+			width: 50%;
+			padding: 4rem;
+
+			// @include respond(tab-land) {
+			// 	width: 65%;
+			// } 
+
+			// @include respond(tab-land) {
+			// 	width: 100%;
+			// } 
+		}
+	}
+}

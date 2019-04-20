@@ -1,0 +1,28 @@
+Home page:
+	Finish home page layout for starbursts
+	Complete responsive home page
+	PJ Testimonial
+	FlipBox Color Schemes
+
+Showcase pages:
+	fill in Overview
+	Update device snapshots
+	Update Overview description
+	Add screenshots and project descriptions
+	Responsive web form on bottom
+	
+	MiraCosta:
+		get/update clean copy of website
+		host static website on surge
+	
+	Get 3rd piece of work to feature
+
+About Page:
+	Design About page
+	Develop About page
+	
+
+Nav Menu:
+Scroll feature between showcase pieces
+Footer
+	

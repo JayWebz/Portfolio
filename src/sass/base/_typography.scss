@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Marvin Visions';
+  // Import is relative from style.css file
+  src: url('./fonts/MarvinVisions/MarvinVisions-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/MarvinVisions/MarvinVisions-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/MarvinVisions/MarvinVisions-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/MarvinVisions/MarvinVisions-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/MarvinVisions/MarvinVisions-Bold.otf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+.heading-primary {
+	font-family: 'Marvin Visions';
+	font-size: 6rem;
+	text-align: center;
+	/* prevents vertical shake on keyframe animations */
+	backface-visibility: hidden;
+	color: transparent;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+		-webkit-text-stroke-width: 3px;
+		-webkit-text-stroke-color: white;
+		line-height: 1;
+		letter-spacing: 1rem;
+		span {
+			-webkit-text-stroke-width: 0;
+			font-size: 12rem;
+			letter-spacing: 1.4rem;
+			background-image: linear-gradient(to right, $color-blue-gradient, $color-purple-gradient);
+		display: inline-block;
+		-webkit-background-clip: text;	
+	}
+}
+
+.heading-secondary {
+	font-family: 'Marvin Visions';
+	font-size: 4.5rem;
+	color: #000;
+	text-align: center;
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	width: max-content;
+
+	@include respond(phone) {
+		font-size: 4rem;
+	}
+
+	&__letter-container {
+		display: inline-block;
+		letter-spacing: 0.5rem;
+
+		&:not(:last-child) {
+			//margin-right: -1.5rem;
+		}
+	}
+
+	&__letter {
+		display: inline-block;
+		transform: perspective(100rem) rotateX(45deg);
+		z-index: 100;
+
+		&-animate {
+			animation-name: spinOdd;
+			animation-duration: 3s;
+			animation-timing-function: ease-out;
+		}
+
+		&--even {
+			transform: perspective(100rem) rotateX(-45deg);
+
+			&-animate {
+				animation-name: spinEven;
+				animation-duration: 3s;
+				animation-timing-function: ease-out;
+			}
+		}
+	}
+}
+
+.heading-tertiary {
+	font-size: 2rem;
+	line-height: 3rem;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.7rem;
+}
