@@ -939,22 +939,24 @@ p {
   animation-iteration-count: infinite; }
 
 .footer {
-  height: 30rem;
+  height: auto;
+  min-height: 30rem;
   background-color: #525252;
   width: 100%;
-  color: #fff; }
+  color: #fff;
+  padding-bottom: 3rem; }
   .footer__header {
     font-size: 1.6rem;
     line-height: 3rem;
-    margin: 1.5rem 0 1rem;
+    margin: 2rem 0 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center; }
   .footer__about {
     font-size: 1.5rem; }
     .footer__about img {
-      width: 10rem;
-      height: 10rem;
+      width: 13.5rem;
+      height: 13.5rem;
       border: 1px solid #fff;
       float: left;
       margin-top: 1rem;
@@ -984,13 +986,18 @@ p {
   .footer__badges {
     display: flex;
     justify-content: center;
-    margin: 4rem 0 2rem; }
+    margin: 2.5rem 0; }
     .footer__badges img {
       width: 5rem;
       height: 7rem;
       border: 1px solid #fff; }
     .footer__badges img:not(:last-child) {
       margin-right: 3rem; }
+  .footer__copyright {
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px; }
 
 .row {
   max-width: 114rem;
