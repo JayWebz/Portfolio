@@ -18,7 +18,7 @@ class Countdown extends Component {
 				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
 						role="Web Developer"
 						context="Personal Project"
-						year="2018"/>
+						year="2019"/>
 				<div className="countdown__content">
 					<Content />
 					<Button buttonText="Visit Website" href="http://countdown-trivia.surge.sh

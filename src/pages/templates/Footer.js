@@ -10,7 +10,7 @@ class Footer extends Component {
 						<h4 className="footer__header">About me</h4>
 
 						<div className="footer__about">
-							<img src="" alt="Jon"/>
+							<img src={process.env.PUBLIC_URL + "/images/SCS_PJ.jpg"} alt="Bio Picture"/>
 
 							<p>My name is Jon and I am a full-time Web Developer based in Vista, CA. 
 							I specialize in creating dynamic and beautiful web pages and apps using the 
@@ -25,27 +25,27 @@ class Footer extends Component {
 						<div className="footer__links">
 							<div className="footer__links-single">
 								<a href="" target="_blank">
-									<img src="" alt="Resumé"/>
+									<img src={process.env.PUBLIC_URL + "/images/footer/profile.png"} alt="Resumé"/>
 								</a>
 								<p>Resumé</p>
 							</div>
 							<div className="footer__links-single">
 								<a href="" target="_blank">
-									<img src="" alt="GitHub"/>
+									<img src={process.env.PUBLIC_URL + "/images/footer/github.png"} alt="GitHub"/>
 								</a>
 								<p>GitHub</p>
 							</div>
 							<div className="footer__links-single">
 								<a href="" target="_blank">
-									<img src="" alt="LinkedIn"/>
+									<img src={process.env.PUBLIC_URL + "/images/footer/linkedin.png"} alt="LinkedIn"/>
 								</a>
 								<p>LinkedIn</p>
 							</div>
 						</div>
 						<div className="footer__badges">
-							<img src="" alt="HTML5 Badge"/>
-							<img src="" alt="CSS3 Badge"/>
-							<img src="" alt="Javascript 6 Badge"/>
+							<img src={process.env.PUBLIC_URL + "/images/footer/html5.png"} alt="HTML5 Badge"/>
+							<img src={process.env.PUBLIC_URL + "/images/footer/css3.png"} alt="CSS3 Badge"/>
+							<img src={process.env.PUBLIC_URL + "/images/footer/js6.png"} alt="Javascript 6 Badge"/>
 						</div>
 						<p className="footer__copyright">© {year} Jonathan Weber. All rights reserved</p>
 					</div>

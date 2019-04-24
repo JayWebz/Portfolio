@@ -21,7 +21,7 @@ class MiraCostaCollege extends Component {
 						year="2014"/>
 				<div className="mccd__content">
 					<Content />
-					<Button buttonText="Visit Website" href="mccdance.surge.sh"/>
+					<Button buttonText="Visit Website" href="https://mccdance.surge.sh"/>
 				</div>
 				<div className="row">
 					<Form />

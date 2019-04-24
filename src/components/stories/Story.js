@@ -11,10 +11,17 @@ class Story extends Component {
 
   handleComponentType() {
     if (this.props.componentType === 'testimonial') {
-      return <Testimonial text="Lorem ipsum dolor sit ametlicabo impedit blanditiis hic eaque funullapore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deserunt delectus minima facere aperiam nemo asperiores in nesciunt cupiditate repellat ipsa nihil ipsum, ab earum tenetur distinctio iure? Sunt, ab!"/>
+      return <Testimonial 
+                headline="XX% increase in website conversions"
+                text='Working with Jon was (and continues to be) an outstanding experience. Since relaunching our website with his design ideas, services and recommendations, South Coast Surety has eperience a XX% increase in website conversions.'
+                name="PJ Eichten"
+                title="Director of Digital Marketing"
+                company="South Coast Surety"
+              />
     } else if (this.props.componentType === 'CTA') {
-      return  <CTA buttonText="Get in touch" text=""
-              heading="Hi, my name is Jon. I create websites and web applications. I'm available for contract work, so if you'd like to build something,"/>
+      return  <CTA buttonText="Get in touch"
+                text=""
+                heading="Hi, my name is Jon. I create websites and web applications. I'm available for contract work, so if you'd like to build something,"/>
     }
   }
 

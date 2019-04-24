@@ -62,12 +62,41 @@
 		transition: all 0.5s;
 	}
 
-	&__text-container {
+	&__content {
 		background-size: cover;
 		background-position: center center;
 
+		&-logo {
+			height: 3rem;
+		}
+
 		.heading-tertiary {
 			width: 100%;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+		}
+
+		&-text {
+			margin: 1.5rem 0;
+		}
+
+		&-author {
+			font-weight: 700;
+
+			& span:not(:last-child) {
+				margin-right: 0.5rem;
+			}
+
+			&-name {
+				text-transform: uppercase;
+				letter-spacing: 1.5px;
+				font-size: 2rem;
+			}
+
+			&-title,
+			&-company {
+				font-style: italic;
+			}
 		}
 	}
 

@@ -658,11 +658,27 @@ p {
     transform: translateX(0rem) scale(1.2);
     backface-visibility: hidden;
     transition: all 0.5s; }
-  .story__text-container {
+  .story__content {
     background-size: cover;
     background-position: center center; }
-    .story__text-container .heading-tertiary {
-      width: 100%; }
+    .story__content-logo {
+      height: 3rem; }
+    .story__content .heading-tertiary {
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 1.5px; }
+    .story__content-text {
+      margin: 1.5rem 0; }
+    .story__content-author {
+      font-weight: 700; }
+      .story__content-author span:not(:last-child) {
+        margin-right: 0.5rem; }
+      .story__content-author-name {
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: 2rem; }
+      .story__content-author-title, .story__content-author-company {
+        font-style: italic; }
   .story__text {
     transform: translateX(-2rem); }
     @media only screen and (max-width: 64em) {
@@ -962,7 +978,9 @@ p {
       margin-top: 1rem;
       margin-right: 2rem;
       border-radius: 50%;
-      shape-outside: circle(); }
+      shape-outside: circle();
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222); }
   .footer .col-1-of-2 {
     display: flex;
     flex-direction: column; }
@@ -974,11 +992,21 @@ p {
       align-items: center;
       flex-direction: column; }
       .footer__links-single a {
-        height: 6rem;
-        border: 1px solid #fff;
+        height: 7rem;
+        background-color: #fff;
         border-radius: 50%;
-        width: 6rem;
-        margin-bottom: 0.5rem; }
+        width: 7rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+        z-index: 1; }
+        .footer__links-single a img {
+          width: 5rem;
+          z-index: 2;
+          position: relative; }
       .footer__links-single p {
         font-size: 1.2rem;
         text-transform: uppercase;
@@ -990,7 +1018,8 @@ p {
     .footer__badges img {
       width: 5rem;
       height: 7rem;
-      border: 1px solid #fff; }
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222); }
     .footer__badges img:not(:last-child) {
       margin-right: 3rem; }
   .footer__copyright {
