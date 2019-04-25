@@ -58,14 +58,26 @@
 	position: relative;
 	z-index: 1;
 
+	@include respond(phone-lg) {
+			margin-top: 20rem;
+		}
+
 	.col-1-of-1 {
 		@include col1Of1;
-		top: -28rem;
+		top: -32rem;
 
 		@include respond(tab-port) {
 			max-width: 80rem;
 			padding: 0 8rem;
 			margin-left: -2rem;
+		}
+
+		@include respond(phone-lg) {
+			top: -39rem;
+		}
+
+		@include respond(phone-md) {
+			top: -44rem;
 		}
 
 		@include respond(phone) {

@@ -59,6 +59,14 @@ $breakpoint Argument Choices:
 		@media only screen and (max-width: 30em) { @content }; //  480px
 	}
 
+	@if $breakpoint == phone-md {
+		@media only screen and (max-width: 46em) { @content }; // 575px
+	}
+
+	@if $breakpoint == phone-lg {
+		@media only screen and (max-width: 40em) { @content }; // 640px
+	}
+
 	@if $breakpoint == tab-port {
 		@media only screen and (max-width: 64em) { @content }; // 1024px
 	}

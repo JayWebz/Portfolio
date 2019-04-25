@@ -4,12 +4,6 @@ import BackgroundVideo from '../../../components/BackgroundVideo';
 import Showcase from '../../../components/Showcase';
 
 class Orgs extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			backgroundImage: 'https://thumbs.dreamstime.com/b/hungry-fat-cat-portrait-beautiful-obese-kitty-garden-spring-looking-extremely-59829345.jpg'
-		};
-	}
 	render() {
 		return(
 			<div className="section-orgs">
@@ -22,21 +16,21 @@ class Orgs extends Component {
 			            		alt="NTN Buzztime, Inc."
 			            		header="NTN Buzztime, Inc."
 			            		href="/buzztime"
-			            		description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, recusandae, voluptates! Molestias, porro ullam quia. Dignissimos alias aut ducimus, nisi nam atque, modi ex suscipit quasi accusantium explicabo vitae reprehenderit."/>	
+			            		description="NTN Buzztime, Inc. delivers entertainment and dining technology to bars and restaurants in North America; providing an entertainment and marketing services platform for hospitality venues that offers games, events, and entertainment experiences to customers."/>	
 			        </div>
 			        <div className="col-1-of-3">
 			            <Showcase imagePath="/images/SouthCoastSurety.png"
-			            		alt="NTN Buzztime, Inc."
-			            		header="NTN Buzztime, Inc."
+			            		alt="South Coast Surety"
+			            		header="South Coast Surety"
 			            		href="/south-coast-surety"
-			            		description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, recusandae, voluptates! Molestias, porro ullam quia. Dignissimos alias aut ducimus, nisi nam atque, modi ex suscipit quasi accusantium explicabo vitae reprehenderit."/>	
+			            		description="South Coast Surety Insurance Services, Inc. operates as a surety bond producing agency primarily in California. It offers various surety bonds and related services for contractors, insurance brokers, and the general business community in the United States."/>	
 			        </div>
 			        <div className="col-1-of-3">
 			            <Showcase imagePath="/images/MiraCostaCollege.png"
-			            		alt="NTN Buzztime, Inc."
-			            		header="NTN Buzztime, Inc."
+			            		alt="Mira Costa College"
+			            		header="Mira Costa College"
 			            		href="mira-costa-college-dance"
-			            		description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, recusandae, voluptates! Molestias, porro ullam quia. Dignissimos alias aut ducimus, nisi nam atque, modi ex suscipit quasi accusantium explicabo vitae reprehenderit."/>	
+			            		description="MiraCosta College is a public community college serving coastal North San Diego County in California. The Dance department engages students through diverse courses that focus on dance techniques, choreography, performance, and other scholarly practices."/>	
 			        </div>
 		        </div>
 			</div>

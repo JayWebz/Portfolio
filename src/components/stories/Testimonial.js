@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
 
 class Story extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      width: ""
+    };
+    this.updateDimensions = this.updateDimensions.bind(this);
+  }
+
+  componentWillMount() {
+    this.updateDimensions();
+  }
+
   componentDidMount() {
+    window.addEventListener("resize", this.updateDimensions);
+
     if(this.props.text1 !== "") {
       const textArray = this.props.text.split('');
       const textCode = [];
@@ -16,6 +30,16 @@ class Story extends Component {
     }
   }
 
+  updateDimensions() {
+    this.setState({
+        width: window.innerWidth
+    });
+  }
+
+  componentWillUnmount() {
+        window.removeEventListener("resize", this.updateDimensions);
+    }
+
   render() {
 		return(
       <div className="story__testimonial">
@@ -26,7 +50,11 @@ class Story extends Component {
           </figcaption>
         </figure>
         <div className="story__content">
-          <img className="story__content-logo" src={process.env.PUBLIC_URL + "/images/SCS_logoLong.png"} alt="South Coast Surety Logo"/>
+          {
+            this.state.width > 640 
+            ? <img className="story__content-logo" src={process.env.PUBLIC_URL + '/images/SCS_logoLong.png'} alt="SouthCoastSurety" /> 
+            : <img className="story__content-logo" src={process.env.PUBLIC_URL + '/images/SouthCoastSurety.png'} alt="SouthCoastSurety" />
+          }
           <h3 className="heading-tertiary">{this.props.headline}</h3>
           <p className="story__content-text">{this.props.text}</p>
           <p className="story__content-author">

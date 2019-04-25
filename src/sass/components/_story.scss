@@ -9,14 +9,14 @@
 	opacity: 1;
 	color: white;
 
-	@include respond(phone) {
+	@include respond(phone-lg) {
 		transform: skewX(0);
 	}
 
 	& > * {
 		transform: skewX(12deg);
 
-		@include respond(phone) {
+		@include respond(phone-lg) {
 			transform: skewX(0deg);
 		}
 	}
@@ -49,8 +49,14 @@
 			transform: translateX(-1rem);
 		}
 
+		@include respond(phone-lg) {
+			width: 10rem;
+			height: 10rem;
+			transform: translateX(3rem);
+		}
+
 		@include respond(phone) {
-			transform: translateX(-3rem) skewX(0);
+			transform: translateX(3rem) skewX(0);
 		}
 	}
 
@@ -67,7 +73,10 @@
 		background-position: center center;
 
 		&-logo {
-			height: 3rem;
+			@include respond(phone-lg) {
+				margin-top: 0.5rem;
+				width: 12rem;
+			}
 		}
 
 		.heading-tertiary {
