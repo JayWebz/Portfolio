@@ -3,7 +3,6 @@ import Header from './header/Header';
 import Work from './work/Work';
 import Orgs from './orgs/Orgs';
 import Contact from './contact/Contact';
-import Footer from '../templates/Footer';
 
 class Home extends Component {
 	render() {
@@ -13,7 +12,6 @@ class Home extends Component {
 				<Work />
 				<Orgs />
 				<Contact />
-				<Footer />
 			</div>
 		);
 	}

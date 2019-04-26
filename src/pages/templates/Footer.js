@@ -30,13 +30,13 @@ class Footer extends Component {
 								<p>Resumé</p>
 							</div>
 							<div className="footer__links-single">
-								<a href="" target="_blank">
+								<a href="https://github.com/JayWebz" target="_blank">
 									<img src={process.env.PUBLIC_URL + "/images/footer/github.png"} alt="GitHub"/>
 								</a>
 								<p>GitHub</p>
 							</div>
 							<div className="footer__links-single">
-								<a href="" target="_blank">
+								<a href="https://www.linkedin.com/in/jonweber09/" target="_blank">
 									<img src={process.env.PUBLIC_URL + "/images/footer/linkedin.png"} alt="LinkedIn"/>
 								</a>
 								<p>LinkedIn</p>

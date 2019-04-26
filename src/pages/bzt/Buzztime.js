@@ -29,7 +29,6 @@ class Buzztime extends Component {
 						<Form />
 					</div>
 				</div>
-				<Footer />
 			</div>
 		);
 	}

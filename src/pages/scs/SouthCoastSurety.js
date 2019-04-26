@@ -29,7 +29,6 @@ class SouthCoastSurety extends Component {
 						<Form />
 					</div>
 				</div>
-				<Footer />
 			</div>
 		);
 	}

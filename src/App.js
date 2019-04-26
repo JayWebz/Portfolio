@@ -7,6 +7,7 @@ import MiraCostaCollege from './pages/mcc/MiraCostaCollege';
 import DicePoker from './pages/dice-poker/DicePoker';
 import IPlayYouListen from './pages/ipyl/IPlayYouListen';
 import Countdown from './pages/countdown/Countdown';
+import Footer from './pages/templates/Footer';
 
 class App extends Component {
 	render() {
@@ -20,6 +21,7 @@ class App extends Component {
 					<Route path='/countdown' component={Countdown} />
 					<Route path='/dice-poker' component={DicePoker} />
 					<Route path='/iplayyoulisten' component={IPlayYouListen} />
+					<Footer />
 				</div>
 			</Router>
 		);

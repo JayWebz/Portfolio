@@ -30,7 +30,6 @@ class Countdown extends Component {
 						<Form />
 					</div>
 				</div>
-				<Footer />
 			</div>
 		);
 	}

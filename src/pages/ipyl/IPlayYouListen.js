@@ -29,7 +29,6 @@ class IPlayYouListen extends Component {
 						<Form />
 					</div>
 				</div>
-				<Footer />
 			</div>
 		);
 	}

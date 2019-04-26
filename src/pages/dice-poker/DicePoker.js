@@ -55,7 +55,6 @@ class DicePoker extends Component {
 						<Form />
 					</div>
 				</div>
-				<Footer />
 			</div>
 		);
 	}

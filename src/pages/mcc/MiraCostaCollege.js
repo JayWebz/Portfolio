@@ -26,7 +26,6 @@ class MiraCostaCollege extends Component {
 				<div className="row">
 					<Form />
 				</div>
-				<Footer />
 			</div>
 		);
 	}
