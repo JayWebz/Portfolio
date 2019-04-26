@@ -4,7 +4,6 @@ import Hero from '../templates/Hero';
 import Overview from '../templates/Overview';
 import Content from './Content';
 import Form from '../../components/form/Form';
-import Footer from '../templates/Footer';
 
 class SouthCoastSurety extends Component {
 	render() {
