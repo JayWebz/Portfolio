@@ -10,7 +10,7 @@ class Footer extends Component {
 						<h4 className="footer__header">About me</h4>
 
 						<div className="footer__about">
-							<img src={process.env.PUBLIC_URL + "/images/SCS_PJ.jpg"} alt="Bio Picture"/>
+							<img src={process.env.PUBLIC_URL + "/images/SCS_PJ.jpg"} alt="Me"/>
 
 							<p>My name is Jon and I am a full-time Web Developer based in Vista, CA. 
 							I specialize in creating dynamic and beautiful web pages and apps using the 
@@ -24,19 +24,19 @@ class Footer extends Component {
 						<h4 className="footer__header">Professional Resources</h4>
 						<div className="footer__links">
 							<div className="footer__links-single">
-								<a href="" target="_blank">
+								<a href="" target="_blank" rel="noopener noreferrer">
 									<img src={process.env.PUBLIC_URL + "/images/footer/profile.png"} alt="Resumé"/>
 								</a>
 								<p>Resumé</p>
 							</div>
 							<div className="footer__links-single">
-								<a href="https://github.com/JayWebz" target="_blank">
+								<a href="https://github.com/JayWebz" target="_blank" rel="noopener noreferrer">
 									<img src={process.env.PUBLIC_URL + "/images/footer/github.png"} alt="GitHub"/>
 								</a>
 								<p>GitHub</p>
 							</div>
 							<div className="footer__links-single">
-								<a href="https://www.linkedin.com/in/jonweber09/" target="_blank">
+								<a href="https://www.linkedin.com/in/jonweber09/" target="_blank" rel="noopener noreferrer">
 									<img src={process.env.PUBLIC_URL + "/images/footer/linkedin.png"} alt="LinkedIn"/>
 								</a>
 								<p>LinkedIn</p>

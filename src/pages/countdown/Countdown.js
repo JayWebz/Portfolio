@@ -15,7 +15,7 @@ class Countdown extends Component {
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
 				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
-						role="Web Developer"
+						myRole="Web Developer"
 						context="Personal Project"
 						year="2019"/>
 				<div className="countdown__content">

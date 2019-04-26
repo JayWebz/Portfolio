@@ -40,7 +40,7 @@ class DicePoker extends Component {
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
 				<Overview overview="A poker game with a graphical user interface that simulates dice rolls and tracks high scores."
-						role="Python Developer"
+						myRole="Python Developer"
 						context="Personal Project"
 						year="2017"/>
 				<div className="dice-poker__content">

@@ -13,7 +13,7 @@ class Overview extends Component {
 		            <div className="col-1-of-3">
 		            	<div className="section-overview__col-3">
 	            			<SecondaryHeader headline="Role"/>
-	            			<h3 className="heading-tertiary">{this.props.role}</h3>
+	            			<h3 className="heading-tertiary">{this.props.myRole}</h3>
 	            		</div>
 		            </div>
 		            <div className="col-1-of-3">

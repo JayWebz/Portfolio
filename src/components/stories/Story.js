@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Button from '../Button';
 import Testimonial from './Testimonial';
 import CTA from './CTA';
 

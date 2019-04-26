@@ -11,14 +11,14 @@ class SecondaryHeader extends Component {
 		//console.log(headlineArray);
 		for (let i = 0; i < headlineArray.length; i++) {
 			if (i % 2 !== 0) {
-				if(headlineArray[i] == ' ') {
+				if(headlineArray[i] === ' ') {
 					headlineCode.push(<SecondaryHeaderLetterEven letter={headlineArray[i]} spacing={{ width: '1rem', display: 'block' }}/>);
 				} else {
 					headlineCode.push(<SecondaryHeaderLetterEven letter={headlineArray[i]} />);
 				}
 				
 			} else {
-				if(headlineArray[i] == ' ') {
+				if(headlineArray[i] === ' ') {
 					headlineCode.push(<SecondaryHeaderLetterOdd letter={headlineArray[i]} spacing={{ width: '1rem', display: 'block' }}/>);
 				} else {
 					headlineCode.push(<SecondaryHeaderLetterOdd letter={headlineArray[i]} />);

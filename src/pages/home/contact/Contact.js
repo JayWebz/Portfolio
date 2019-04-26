@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import SecondaryHeader from '../../../components/headers/SecondaryHeader';
-import StarburstBackground from '../../../components/starburst/StarburstBackground';
 import Form from '../../../components/form/Form';
 import Story from '../../../components/stories/Story';
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Buzztime from './pages/bzt/Buzztime';
 import SouthCoastSurety from './pages/scs/SouthCoastSurety';

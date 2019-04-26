@@ -3,7 +3,6 @@ import Button from '../Button';
 
 class Story extends Component {
   componentDidMount() {
-    console.log(this.props);
     if(this.props.text !== "") {
       const textArray = this.props.text.split('');
       const textCode = [];

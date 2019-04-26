@@ -15,7 +15,7 @@ class MiraCostaCollege extends Component {
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
 				<Overview overview="An elegant single-page website featuring course information related to Mira Costa College Dance Department."
-						role="Web Designer/Developer"
+						myRole="Web Designer/Developer"
 						context="College Course Group Project"
 						year="2014"/>
 				<div className="mccd__content">

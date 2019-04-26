@@ -15,7 +15,7 @@ class Buzztime extends Component {
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
 				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
-						role="Web Developer"
+						myRole="Web Developer"
 						context="Full-Time"
 						year='Digital Marketing: 2013 - 2016 &mdash; Web Development: 2016 - Present'/>
 				<div className="buzztime__content">

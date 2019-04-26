@@ -15,7 +15,7 @@ class SouthCoastSurety extends Component {
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
 				<Overview overview="A custom-themed wordpress website with the primary purpose to generate leads and disseminate information about surety bonds."
-						role="Web Designer/Developer"
+						myRole="Web Designer/Developer"
 						context="Freelance"
 						year="2018"/>
 				<div className="scs__content">
