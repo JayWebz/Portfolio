@@ -15,7 +15,7 @@ class IPlayYouListen extends Component {
 					alt="I Play You Listen" 
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
-				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
+				<Overview overview="A Web App designed to build custom spotify playlists and save them directly into your Spotify account."
 						role="Web Designer/Developer"
 						context="Personal Project"
 						year="2018"/>

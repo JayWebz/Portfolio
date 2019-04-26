@@ -1,3 +1,14 @@
 .u-margin-bottom-sml {margin-bottom: $margin-bottom-sml;}
 .u-margin-bottom-med {margin-bottom: $margin-bottom-med;}
 .u-margin-bottom-lrg {margin-bottom: $margin-bottom-lrg;}
+
+.u-content-wrapper__p {
+	max-width: 70rem;
+	margin: 0 auto;
+}
+
+.u-content-wrapper__img {
+	display: flex;
+	justify-content: center;
+	margin: 3rem 0;
+}

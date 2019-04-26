@@ -8,10 +8,6 @@ class FormContent extends Component {
 		return(
             <form action="#" className="form" id="form">
             	<SecondaryHeader headline="Get in touch" />
-            	<div className="orbit-path">
-            		<Starburst circleStyle={ {backgroundColor: 'orange' } } 
-            					starburstClass='starburst-container__orbit'/>
-            	</div>
 				<div className="form__group">
 					<input type="text" className="form__input" placeholder="Name" id="name" pattern=".{2,}" required />
 					<label for="name" className="form__label">Name</label>

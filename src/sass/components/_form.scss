@@ -16,17 +16,12 @@
 		.starburst-container {
 			top: -17rem;
 			transform-origin: -960% 210%;
-
-			@include respond(tab-port) {
-				
-			}
 		
 			&__orbit {
 				animation-name: orbit;
 				animation-duration: 8s;
 				animation-timing-function: linear;
 				z-index: 100;
-				//transform-origin: 40% 10% 0;
 				
 				.starburst {
 					transform: scale(0.33) rotate(45deg);

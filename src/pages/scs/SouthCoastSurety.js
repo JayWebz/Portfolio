@@ -15,13 +15,13 @@ class SouthCoastSurety extends Component {
 					alt="South Coast Surety" 
 					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
 					style={heroGradient}/>
-				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
+				<Overview overview="A custom-themed wordpress website with the primary purpose to generate leads and disseminate information about surety bonds."
 						role="Web Designer/Developer"
 						context="Freelance"
 						year="2018"/>
 				<div className="scs__content">
 					<Content />
-					<Button buttonText="Visit Website" href="https://wptest.southcoastsurety.com/"/>
+					<Button buttonText="Visit Website" href="https://www.southcoastsurety.com/"/>
 				</div>
 				<div className="row">
 					<div className="form-container" 

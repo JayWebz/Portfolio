@@ -14,7 +14,6 @@ class Orgs extends Component {
 			        </div>
 		        </div>
 				<div className="row">	
-					<StarburstBackground />
 					<Form />
 				</div>
 			</div>

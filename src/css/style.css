@@ -275,6 +275,15 @@ p {
 .u-margin-bottom-lrg {
   margin-bottom: 8rem; }
 
+.u-content-wrapper__p {
+  max-width: 70rem;
+  margin: 0 auto; }
+
+.u-content-wrapper__img {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0; }
+
 .bg-video {
   position: absolute;
   top: 0;
