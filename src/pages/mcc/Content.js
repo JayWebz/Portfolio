@@ -12,14 +12,14 @@ class Content extends Component {
 	            		downplay aesthetics. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/MCC_1.jpg`} alt="[app with search results and playlist populated]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/MCC_1.jpg`} alt="Home Section"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		Our team set out to do just that. We created a single-page html website that featured 
 	            		staff, upcoming shows, and information about the department. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/MCC_2.jpg`} alt="[Spotify login screen]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/MCC_2.jpg`} alt="Upcoming Performances"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		The website we built used JQuery to create dynamic interaction on the page 
@@ -27,7 +27,7 @@ class Content extends Component {
 	            		positioning to keep the user interested as they scroll through the website.
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/MCC_3.jpg`} alt="[Spotify login screen]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/MCC_3.jpg`} alt="Contact Section"/>
 	            	</div>
 		        </div>
 			</div>

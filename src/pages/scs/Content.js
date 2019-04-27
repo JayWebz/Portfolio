@@ -11,7 +11,7 @@ class Content extends Component {
 	            		since the content itself is complicated enough. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/SCS_1.jpg`} alt="[app with search results and playlist populated]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/SCS_1.jpg`} alt="Home Page"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		Together, with a back-end developer, we completely rebuilt the site into simple pages 
@@ -21,7 +21,7 @@ class Content extends Component {
 	            		life into an outdated website. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/SCS_2.png`} alt="[Spotify login screen]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/SCS_2.png`} alt="Form Sample"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		South Coast Surety’s website is built using a custom wordpress child-theme based 

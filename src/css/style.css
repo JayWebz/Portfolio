@@ -283,6 +283,8 @@ p {
   display: flex;
   justify-content: center;
   margin: 3rem 0; }
+  .u-content-wrapper__img img {
+    box-shadow: 2px 4px 14px #000; }
 
 .bg-video {
   position: absolute;
@@ -394,11 +396,11 @@ p {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #FFD798, #ED9D1f); }
+        background-image: linear-gradient(to left top, #ED9D1f, #FFD798); }
       .card__side--back-2 {
         background-image: linear-gradient(to left top, #007A62, #06c49e); }
       .card__side--back-3 {
-        background-image: linear-gradient(to left top, #039BB0, #97F000); }
+        background-image: linear-gradient(to left top, #008417, #54DB6C); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -644,7 +646,6 @@ p {
     height: 15rem;
     float: left;
     position: relative;
-    transform: translateX(-3rem);
     overflow: hidden;
     border-radius: 50%; }
     @supports (-webkit-clip-path: circle(50% at 50% 50%)) or (clip-path: circle(50% at 50% 50%)) {
@@ -1210,7 +1211,8 @@ p {
     margin: 10rem 0 2rem; }
     .dice-poker .form-container .form {
       width: 50%;
-      padding: 4rem; }
+      padding: 4rem;
+      margin-bottom: 12rem; }
 
 .section-work {
   position: relative;
@@ -1305,7 +1307,8 @@ p {
     margin: 10rem 0 2rem; }
     .buzztime .form-container .form {
       width: 50%;
-      padding: 4rem; }
+      padding: 4rem;
+      margin-bottom: 12rem; }
 
 .countdown {
   max-width: 100%;
@@ -1329,7 +1332,8 @@ p {
     margin: 10rem 0 2rem; }
     .countdown .form-container .form {
       width: 50%;
-      padding: 4rem; }
+      padding: 4rem;
+      margin-bottom: 12rem; }
 
 .ipyl {
   max-width: 100%;
@@ -1351,7 +1355,8 @@ p {
     margin: 10rem 0 2rem; }
     .ipyl .form-container .form {
       width: 50%;
-      padding: 4rem; }
+      padding: 4rem;
+      margin-bottom: 12rem; }
 
 .mccd {
   max-width: 100%;
@@ -1373,7 +1378,8 @@ p {
     margin: 10rem 0 2rem; }
     .mccd .form-container .form {
       width: 50%;
-      padding: 4rem; }
+      padding: 4rem;
+      margin-bottom: 12rem; }
 
 .scs {
   max-width: 100%;
@@ -1395,7 +1401,8 @@ p {
     margin: 10rem 0 2rem; }
     .scs .form-container .form {
       width: 50%;
-      padding: 4rem; }
+      padding: 4rem;
+      margin-bottom: 12rem; }
 
 .section-hero {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);

@@ -12,7 +12,7 @@ class Content extends Component {
 	            		data efficiently, while providing an easy to use and eye-pleasing interface. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/IPYL_1.jpg`} alt="[app with search results and playlist populated]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/IPYL_1.jpg`} alt="app with search results and playlist populated"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		The app is broken into six different components that all link together. 
@@ -23,7 +23,7 @@ class Content extends Component {
 	            		listing. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/IPYL_2.jpg`} alt="[Spotify login screen]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/IPYL_2.jpg`} alt="Spotify login screen"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		Two track listings are used inside of both the search results and playlist components, 
@@ -32,7 +32,7 @@ class Content extends Component {
 	            		along with the playlist name and saved to that users account.
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/IPYL_3.jpg`} alt="[app with playlist generated]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/IPYL_3.jpg`} alt="app with playlist generated"/>
 		        	</div>
 		        </div>
 			</div>

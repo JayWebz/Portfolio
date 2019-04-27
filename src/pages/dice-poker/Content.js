@@ -11,7 +11,7 @@ class Content extends Component {
 	            		e game feels reminiscent of an MS-DOS game using bright 8-bit colors and a sans-serif font. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/DicePoker_1.png`} alt="[app with search results and playlist populated]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/DicePoker_1.png`} alt="dice held with rules"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		The game uses a small graphics library that is perfect for creating basic shapes and 
@@ -21,7 +21,7 @@ class Content extends Component {
 	            		initialization. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/DicePoker_2.jpg`} alt="[Spotify login screen]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/DicePoker_2.jpg`} alt="scored roll with label on bottom"/>
 	            	</div>
 	            	<p class="u-content-wrapper__p">
 	            		The app has separation of concerns keeping functionality and UI independent of each other. 
@@ -29,7 +29,7 @@ class Content extends Component {
 	            		an external file. 
 	            	</p>
 	            	<div className="u-content-wrapper__img">
-	            		<img src={`${process.env.PUBLIC_URL}/images/DicePoker_3.png`} alt="[app with playlist generated]"/>
+	            		<img src={`${process.env.PUBLIC_URL}/images/DicePoker_3.png`} alt="enter high score"/>
 		        	</div>
 		        </div>
 			</div>

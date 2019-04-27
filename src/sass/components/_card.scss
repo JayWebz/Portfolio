@@ -28,15 +28,15 @@
 			transform: rotateY(180deg);
 
 			&-1 {
-				background-image: linear-gradient(to right bottom, $countdown-yellow-light, $countdown-yellow-dark);
+				background-image: linear-gradient(to left top, $countdown-yellow-dark, $countdown-yellow-light);
 			}
 
 			&-2 {
-				background-image: linear-gradient(to left top, #007A62, #06c49e);
+				background-image: linear-gradient(to left top, $color-ipul-green-dark, $color-ipul-green);
 			}
 
 			&-3 {
-				background-image: linear-gradient(to left top, #039BB0, #97F000);
+				background-image: linear-gradient(to left top, $color-poker-green-dark, $color-poker-green-light);
 			}
 		}
 	}

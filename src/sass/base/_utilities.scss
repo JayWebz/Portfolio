@@ -11,4 +11,8 @@
 	display: flex;
 	justify-content: center;
 	margin: 3rem 0;
+
+	& img {
+	    box-shadow: 2px 4px 14px $color-black;
+	}
 }
