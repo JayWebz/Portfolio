@@ -12,7 +12,7 @@ class MiraCostaCollege extends Component {
 			<div className="mccd">
 				<Hero heading="Mira Costa College Dance" 
 					alt="Mira Costa College Dance" 
-					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
+					image={`${process.env.PUBLIC_URL}/images/MCC_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="An elegant single-page website featuring course information related to Mira Costa College Dance Department."
 						myRole="Web Designer/Developer"

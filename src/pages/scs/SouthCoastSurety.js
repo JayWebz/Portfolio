@@ -12,7 +12,7 @@ class SouthCoastSurety extends Component {
 			<div className="scs">
 				<Hero heading="South Coast Surety" 
 					alt="South Coast Surety" 
-					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
+					image={`${process.env.PUBLIC_URL}/images/SCS_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="A custom-themed wordpress website with the primary purpose to generate leads and disseminate information about surety bonds."
 						myRole="Web Designer/Developer"

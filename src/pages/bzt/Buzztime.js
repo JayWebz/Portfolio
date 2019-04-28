@@ -12,7 +12,7 @@ class Buzztime extends Component {
 			<div className="buzztime">
 				<Hero heading="Buzztime" 
 					alt="Buzztime" 
-					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
+					image={`${process.env.PUBLIC_URL}/images/BZT_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
 						myRole="Web Developer"

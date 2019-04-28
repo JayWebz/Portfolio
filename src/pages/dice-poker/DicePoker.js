@@ -37,7 +37,7 @@ class DicePoker extends Component {
 			<div className="dice-poker">
 				<Hero heading="Interactive Dice Poker" 
 					alt="Dice Poker Devices" 
-					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
+					image={`${process.env.PUBLIC_URL}/images/MCC_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="A poker game with a graphical user interface that simulates dice rolls and tracks high scores."
 						myRole="Python Developer"

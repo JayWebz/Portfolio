@@ -12,7 +12,7 @@ class IPlayYouListen extends Component {
 			<div className="ipyl">
 				<Hero heading="iPlayYouListen" 
 					alt="I Play You Listen" 
-					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
+					image={`${process.env.PUBLIC_URL}/images/IPYL_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="A Web App designed to build custom spotify playlists and save them directly into your Spotify account."
 						myRole="Web Designer/Developer"

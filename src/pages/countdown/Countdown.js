@@ -12,7 +12,7 @@ class Countdown extends Component {
 			<div className="countdown">
 				<Hero heading="Countdown Trivia Game" 
 					alt="Countdown Trivia Game" 
-					image={`${process.env.PUBLIC_URL}/images/DevicesSample.png`}
+					image={`${process.env.PUBLIC_URL}/images/Countdown_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
 						myRole="Web Developer"
