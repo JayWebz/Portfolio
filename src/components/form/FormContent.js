@@ -6,6 +6,7 @@ class FormContent extends Component {
 	render() {
 		return(
             <form action="#" className="form" id="form">
+            	<h3 className="form__pre-header">Would you like to work with me?</h3>
             	<SecondaryHeader headline="Get in touch" />
 				<div className="form__group">
 					<input type="text" className="form__input" placeholder="Name" id="name" pattern=".{2,}" required />

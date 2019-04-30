@@ -10,7 +10,7 @@ class Footer extends Component {
 						<h4 className="footer__header">About me</h4>
 
 						<div className="footer__about">
-							<img src={process.env.PUBLIC_URL + "/images/SCS_PJ.jpg"} alt="Me"/>
+							<img src={process.env.PUBLIC_URL + "/images/JonWeber.jpg"} alt="Me"/>
 
 							<p>My name is Jon and I am a full-time Web Developer based in Vista, CA. 
 							I specialize in creating dynamic and beautiful web pages and apps using the 

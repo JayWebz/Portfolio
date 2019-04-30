@@ -2,6 +2,13 @@
 	width: 50%;
 	padding: 4rem;
 
+	&__pre-header {
+		text-align: center;
+    	font-size: 1.6rem;
+    	text-transform: uppercase;
+    	margin-bottom: -1.7rem;
+	}
+
 	.orbit-path {
 		border-radius: 50%;
 		width: 20rem;

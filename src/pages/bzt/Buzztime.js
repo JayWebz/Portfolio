@@ -14,7 +14,7 @@ class Buzztime extends Component {
 					alt="Buzztime" 
 					image={`${process.env.PUBLIC_URL}/images/BZT_Devices.png`}
 					style={heroGradient}/>
-				<Overview overview="Nulla velit exercitation in nostrud nostrud nulla id sit dolor occaecat pariatur et sunt incididunt veniam elit excepteur."
+				<Overview overview="I develop for a suite of websites and apps that help market Buzztime to businesses and engage the customers of those businesses."
 						myRole="Web Developer"
 						context="Full-Time"
 						year='Digital Marketing: 2013 - 2016 &mdash; Web Development: 2016 - Present'/>

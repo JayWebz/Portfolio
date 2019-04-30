@@ -10,6 +10,12 @@
 			padding-top: 10rem;
 		}
 
+		.u-content-wrapper__img img {
+			box-shadow: none;
+			-webkit-filter: drop-shadow(5px 5px 5px #222);
+  			filter: drop-shadow(5px 5px 5px #222);
+		}
+
 		.btn {
 			transform: translateX(-50%);
 			margin: 5rem 0 10rem 50%;

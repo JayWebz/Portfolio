@@ -505,6 +505,11 @@ p {
 .form {
   width: 50%;
   padding: 4rem; }
+  .form__pre-header {
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-bottom: -1.7rem; }
   .form .orbit-path {
     border-radius: 50%;
     width: 20rem;
@@ -1199,6 +1204,10 @@ p {
     color: #fff; }
     .dice-poker__content-wrapper {
       padding-top: 10rem; }
+    .dice-poker__content .u-content-wrapper__img img {
+      box-shadow: none;
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+      filter: drop-shadow(5px 5px 5px #222); }
     .dice-poker__content .btn {
       transform: translateX(-50%);
       margin: 5rem 0 10rem 50%; }
