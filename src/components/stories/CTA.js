@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from '../Button';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 class Story extends Component {
   componentDidMount() {
@@ -23,7 +23,12 @@ class Story extends Component {
         <div className="story__text-container" style={this.props.style}>
           <h3 className="heading-tertiary u-margin-bottom-sml">{this.props.heading}</h3>
           <p className="story__text">{this.props.text}</p>
-          <Button href="#" buttonText={this.props.buttonText}/>
+          <AnchorLink href={this.props.href} 
+                className="btn btn--white btn--animated"
+                offset={() => -50}
+          >
+            {this.props.buttonText} &#187;
+          </AnchorLink>
         </div>
       </div>
     );

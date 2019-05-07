@@ -19,6 +19,7 @@ class Story extends Component {
               />
     } else if (this.props.componentType === 'CTA') {
       return  <CTA buttonText="Get in touch"
+                href="#contact"
                 text=""
                 heading="Hi, my name is Jon. I create websites and web applications. I'm available for contract work, so if you'd like to build something,"/>
     }

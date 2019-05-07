@@ -5,7 +5,7 @@ import Story from '../../../components/stories/Story';
 class Orgs extends Component {
 	render() {
 		return(
-			<div className="section-contact">
+			<div className="section-contact" id="contact">
 				<div className="row">
 					<div className="col-1-of-1">
 			            <Story componentType="testimonial" />
