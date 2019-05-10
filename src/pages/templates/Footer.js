@@ -14,7 +14,7 @@ class Footer extends Component {
 
 							<p>My name is Jon and I am a full-time Web Developer based in Vista, CA. 
 							I specialize in creating dynamic and beautiful web pages and apps using the 
-							latest technologies and tools. I have been in the field for around 8 years, 
+							latest technologies and tools. I have been in the field for around 7 years, 
 							and still get excited about new projects and learning new things. I’m a developer, 
 							a designer, a thinker, a creative, and have an eye for detail. Check out 
 							my GitHub or message me to see what I’ve been up to lately.</p>
