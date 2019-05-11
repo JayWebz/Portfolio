@@ -8,12 +8,14 @@ import DicePoker from './pages/dice-poker/DicePoker';
 import IPlayYouListen from './pages/ipyl/IPlayYouListen';
 import Countdown from './pages/countdown/Countdown';
 import Footer from './pages/templates/Footer';
+import Navigation from './pages/templates/Navigation';
 
 class App extends Component {
 	render() {
 		return (
 			<Router>
 				<div>
+					<Navigation />
 					<Route exact path="/" component={Home} />
 					<Route path='/buzztime' component={Buzztime} />
 					<Route path='/south-coast-surety' component={SouthCoastSurety} />
