@@ -9,6 +9,7 @@ import IPlayYouListen from './pages/ipyl/IPlayYouListen';
 import Countdown from './pages/countdown/Countdown';
 import Footer from './pages/templates/Footer';
 import Navigation from './pages/templates/Navigation';
+import PageNav from './pages/templates/PageNav';
 
 class App extends Component {
 	render() {
@@ -16,6 +17,9 @@ class App extends Component {
 			<Router>
 				<div>
 					<Navigation />
+					{
+						window.location.pathname !== '/' ? <PageNav/> : null
+					}
 					<Route exact path="/" component={Home} />
 					<Route path='/buzztime' component={Buzztime} />
 					<Route path='/south-coast-surety' component={SouthCoastSurety} />

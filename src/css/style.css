@@ -1208,7 +1208,7 @@ p {
   right: 6rem;
   border-radius: 50%;
   z-index: 2000;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
   text-align: center;
   cursor: pointer; }
   @media only screen and (max-width: 64em) {
@@ -1323,6 +1323,50 @@ p {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   transform: rotate(-135deg);
   top: 0; }
+
+.pagenav > * {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+  height: 7rem;
+  width: 2.8rem;
+  background-color: #fff;
+  margin-top: 45vh;
+  text-decoration: none;
+  position: fixed;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.6s ease-in-out; }
+  .pagenav > * .u-margin-bottom-lrg {
+    margin-bottom: 0; }
+  .pagenav > *:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4); }
+    .pagenav > *:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+      /* set initial state for animation */
+      transition: all 0.6s; }
+  .pagenav > *:active, .pagenav > *:focus {
+    outline: none;
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4); }
+
+.pagenav__left {
+  left: 0;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%; }
+
+.pagenav__right {
+  right: 0;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%; }
+  .pagenav__right > * {
+    margin-right: -1rem; }
+
+.pagenav__arrow {
+  font-size: 4rem;
+  color: #000; }
 
 .dice-poker {
   max-width: 100%;
