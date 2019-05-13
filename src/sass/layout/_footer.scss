@@ -1,7 +1,7 @@
 .footer {
 	height: auto;
 	min-height: 30rem;
-	background-color: #525252;
+	background-color: $color-footer-bkgd;
 	width: 100%;
 	color: $color-white;
 	padding-bottom: 3rem;
@@ -27,8 +27,8 @@
 			margin-right: 2rem; 
 			border-radius: 50%;
 			shape-outside: circle();
-			-webkit-filter: drop-shadow(5px 5px 5px #222);
-  			filter: drop-shadow(5px 5px 5px #222);
+			-webkit-filter: drop-shadow($footer-drop-shadow);
+  			filter: drop-shadow($footer-drop-shadow);
 		}
 	}
 
@@ -66,12 +66,12 @@
 
 				&:hover,
 				&:focus {
-					box-shadow: 0 0.6rem 0 #aaa;
+					box-shadow: 0 0.6rem 0 $color-footer-btn-drop-shadow;
 					transform: translateY(-0.6rem);
 				}
 
 				&:active {
-					box-shadow: 0 0.3rem 0 #aaa;
+					box-shadow: 0 0.3rem 0 $color-footer-btn-drop-shadow;
 					transform: translateY(-0.3rem);
 				}
 
@@ -108,8 +108,8 @@
 		& img {
 			width: 5rem;
 			height: 7rem;
-			-webkit-filter: drop-shadow(5px 5px 5px #222);
-  			filter: drop-shadow(5px 5px 5px #222);
+			-webkit-filter: drop-shadow($png-drop-shadow);
+  			filter: drop-shadow($png-drop-shadow);
 		}
 
 		& img:not(:last-child) {

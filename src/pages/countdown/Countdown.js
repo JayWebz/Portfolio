@@ -7,7 +7,7 @@ import Form from '../../components/form/Form';
 
 class Countdown extends Component {
 	render() {
-		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #ED9D1f 0%, #FFE5BD 33%, #FFD798 67%)'}
+		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #FFD798 0%, #FFE5BD 33%, #ED9D1f 67%)'}
 		return (
 			<div className="countdown">
 				<Hero heading="Countdown Trivia Game" 

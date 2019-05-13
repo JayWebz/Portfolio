@@ -3,12 +3,17 @@
 	overflow-x: hidden; 
 
 	&__content {
-		background-image: linear-gradient(to right bottom, #06C49E, #007A62 67%);
+		background-image: linear-gradient(to right bottom, $color-ipul-green, $color-ipul-green-dark 67%);
 		color: $color-white;
 
 		&-wrapper {
 			padding-top: 10rem;
 		}
+
+		.u-content-wrapper__img img {
+			width: 100%;
+    		height: 100%;
+    	}
 
 		.btn {
 			transform: translateX(-50%);

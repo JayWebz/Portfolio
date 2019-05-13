@@ -7,7 +7,7 @@ import Form from '../../components/form/Form';
 
 class SouthCoastSurety extends Component {
 	render() {
-		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #032946 0%, #1D547E 33%, #367FB6 67%)'}
+		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #367FB6 0%, #1D547E 33%, #032946 67%)'}
 		return (
 			<div className="scs">
 				<Hero heading="South Coast Surety" 

@@ -4,38 +4,22 @@ import { Link } from 'react-router-dom';
 class Navigation extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			event: '',
-			isChecked: true
-		};
+		this.checkbox = React.createRef();
 		this.toggleMenu = this.toggleMenu.bind(this);
-		this.toggleCheckbox = this.toggleCheckbox.bind(this);
-	}
-
-	toggleCheckbox(event) {
-		event.target.checked === true ? this.setState({ isChecked: false }) : this.setState({ isChecked: true });
-		this.setState({ event: event.target.checked });
 	}
 
 	toggleMenu(event) {
-		this.setState({ 
-			isChecked: !this.state.isChecked ,
-			event: !this.state.event
-		});
-		this.toggleCheckbox(event);
+		this.checkbox.current.click();
 	}
 
 	render() {
 		return (
 			<div className="navigation">
-  				<input type="checkbox" onChange={this.toggleCheckbox} className="navigation__checkbox" id="navi-toggle"/>
-  
-				<label for="navi-toggle" className="navigation__button">
+  				<input type="checkbox" className="navigation__checkbox" ref={this.checkbox} id="navi-toggle"/>
+				<label for="navi-toggle" className="navigation__button" >
 				    <span className="navigation__icon">&nbsp;</span>
 				</label>
-  
   				<div className="navigation__background">&nbsp;</div>
-
 				<nav className="navigation__nav">
 				    <ul className="navigation__list">
 				      	<li className="navigation__item">

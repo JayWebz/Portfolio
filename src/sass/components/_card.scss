@@ -62,22 +62,24 @@
 		// No support on IE or Edge
 		background-blend-mode: screen;
 
-		&--1 {
-			background-image: linear-gradient(
-				to right bottom, 
-				#48CCFF, #AF5DFF);
-		}
-
-		&--2 {
-			background-image: linear-gradient(
-				to right bottom, 
-				#48CCFF, #AF5DFF);
-		}
+		&--1,
+		&--2,
 		&--3 {
 			background-image: linear-gradient(
 				to right bottom, 
-				#48CCFF, #AF5DFF);
+				$color-blue-gradient, $color-purple-gradient);
 		}
+
+		// &--2 {
+		// 	background-image: linear-gradient(
+		// 		to right bottom, 
+		// 		#48CCFF, #AF5DFF);
+		// }
+		// &--3 {
+		// 	background-image: linear-gradient(
+		// 		to right bottom, 
+		// 		#48CCFF, #AF5DFF);
+		// }
 	}
 
 	&__heading {
@@ -103,22 +105,22 @@
 		&--1 {
 			background-image: linear-gradient(
 				to right bottom, 
-				rgba(#48CCFF, 0.85), 
-				rgba(#AF5DFF, 0.85));
+				rgba($color-blue-gradient, 0.85), 
+				rgba($color-purple-gradient, 0.85));
 		}
 
 		&--2 {
 			background-image: linear-gradient(
 				to right bottom, 
-				rgba(#48CCFF, 0.85), 
-				rgba(#AF5DFF, 0.85));
+				rgba($color-blue-gradient, 0.85), 
+				rgba($color-purple-gradient, 0.85));
 		}
 
 		&--3 {
 			background-image: linear-gradient(
 				to right bottom, 
-				rgba(#48CCFF, 0.85), 
-				rgba(#AF5DFF, 0.85));
+				rgba($color-blue-gradient, 0.85), 
+				rgba($color-purple-gradient, 0.85));
 		}
 	}
 
@@ -136,7 +138,7 @@
 				padding: 1rem;
 
 				&:not(:last-child) {
-					border-bottom: 1px solid #eee;
+					border-bottom: 1px solid $color-border-line;
 				}
 			}
 		}

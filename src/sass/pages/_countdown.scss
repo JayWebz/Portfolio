@@ -7,12 +7,17 @@
 	}
 	
 	&__content {
-		background-image: linear-gradient(to right bottom, #ED9D1f, #FFD798 67%);
+		background-image: linear-gradient(to right bottom, $countdown-yellow-light, $countdown-yellow-dark 67%);
 		color: $color-black;
 
 		&-wrapper {
 			padding-top: 10rem;
 		}
+
+		.u-content-wrapper__img img {
+			width: 100%;
+    		height: 100%;
+    	}
 
 		.btn {
 			transform: translateX(-50%);

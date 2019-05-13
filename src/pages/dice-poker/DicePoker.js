@@ -32,7 +32,7 @@ class DicePoker extends Component {
 	}
 
 	render() {
-		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #008417 0%, #00cf23 33%, #54DB6C 67%)'}
+		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #54DB6C 0%, #00cf23 33%, #008417 67%)'}
 		return (
 			<div className="dice-poker">
 				<Hero heading="Interactive Dice Poker" 
