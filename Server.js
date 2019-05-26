@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 
 app.get('/api/dice-poker', (req, res) => {
 	// res.send({ express: 'Hello From Express' });
-	PythonShell.run('./hw12project1.py', function (err) {
+	PythonShell.run('./main.py', function (err) {
 		if (err) throw err;
 		console.log('finished');
 	});
