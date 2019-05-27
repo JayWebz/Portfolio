@@ -12,16 +12,16 @@ class SecondaryHeader extends Component {
 		for (let i = 0; i < headlineArray.length; i++) {
 			if (i % 2 !== 0) {
 				if(headlineArray[i] === ' ') {
-					headlineCode.push(<SecondaryHeaderLetterEven letter={headlineArray[i]} spacing={{ width: '1rem', display: 'block' }}/>);
+					headlineCode.push(<SecondaryHeaderLetterEven letter={headlineArray[i]} key={i} spacing={{ width: '1rem', display: 'block' }}/>);
 				} else {
-					headlineCode.push(<SecondaryHeaderLetterEven letter={headlineArray[i]} />);
+					headlineCode.push(<SecondaryHeaderLetterEven letter={headlineArray[i]} key={i} />);
 				}
 				
 			} else {
 				if(headlineArray[i] === ' ') {
-					headlineCode.push(<SecondaryHeaderLetterOdd letter={headlineArray[i]} spacing={{ width: '1rem', display: 'block' }}/>);
+					headlineCode.push(<SecondaryHeaderLetterOdd letter={headlineArray[i]} key={i} spacing={{ width: '1rem', display: 'block' }}/>);
 				} else {
-					headlineCode.push(<SecondaryHeaderLetterOdd letter={headlineArray[i]} />);
+					headlineCode.push(<SecondaryHeaderLetterOdd letter={headlineArray[i]} key={i} />);
 				}
 				
 			}	

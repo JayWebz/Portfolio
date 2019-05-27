@@ -34,11 +34,9 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
-    // starts in the middle of element and comes out
     background-image: radial-gradient($color-purple-gradient, $color-blue-gradient);
     z-index: 1000;
     transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
-    // transform: scale(80);
 
     @include respond(tab-port) {
       top: 3.8rem;
@@ -57,7 +55,6 @@
     top: 0;
     left: -50%;
     z-index: 1500;
-    // Keep navigation hidden until menu opened
     opacity: 0;
     width: 0;
     transition: all 0.8s;
@@ -106,7 +103,6 @@
   }
 
   // Functionality
-
   &__checkbox:checked ~ &__background {
     transform: scale(60); 
   }

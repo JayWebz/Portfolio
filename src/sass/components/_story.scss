@@ -107,9 +107,6 @@
 	}
 
 	&__text {
-		// @include respond(phone) {
-		// 	transform: skewX(0);
-		// }
 		transform: translateX(-2rem);
 		
 		@include respond(tab-port) {

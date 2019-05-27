@@ -6,31 +6,6 @@ import Content from './Content';
 import Form from '../../components/form/Form';
 
 class DicePoker extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			response: ''
-		}
-		this.initiateProgram = this.initiateProgram.bind(this);
-	}
-
-	initiateProgram() {
-		this.callApi()
-			.then(res => this.setState({ response: res.express }))
-			.catch(err => console.log(err));
-	}
-
-	callApi = async () => {
-		const response = await fetch ('api/dice-poker');
-		const body = await response.json();
-
-		if (response.status !== 200) {
-			throw Error(body.message);
-		}
-
-		return body;
-	}
-
 	render() {
 		let heroGradient = {backgroundImage: 'linear-gradient(to right top, #54DB6C 0%, #00cf23 33%, #008417 67%)'}
 		return (
@@ -45,8 +20,7 @@ class DicePoker extends Component {
 						year="2017"/>
 				<div className="dice-poker__content">
 					<Content />
-					<p>{this.state.response}</p>
-					<Button buttonText="Run program" onClick={this.initiateProgram}/>
+					<Button buttonText="View Github Project" href="https://github.com/JayWebz/DicePoker"/>
 				</div>
 				<div className="row">
 					<div className="form-container" 

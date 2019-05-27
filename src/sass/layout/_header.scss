@@ -8,7 +8,6 @@
 	&__content-box {
 		z-index: 100;
 		overflow: hidden;
-		// Absolute center the content box
 		position: absolute;
 		top: 40%;
 		left: 50%;
@@ -50,10 +49,6 @@
 	left: 0;
 	width: 100%;
 	height: 100vh;
-
-		&-col {
-			
-		}
 
 		&-col--1 {
 			transform: translateX(-20%) translateY(10%) rotate(60deg);
@@ -137,6 +132,5 @@
 		width: 100%;
 		top: 0;
 		right: 0;
-		
 	}
 }

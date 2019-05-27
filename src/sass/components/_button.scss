@@ -10,8 +10,6 @@
 		transition: all 0.3s;
 		position: relative;
 		font-size: 1.6rem;
-
-		// Change for the <button> element
 		border: none;
 		cursor: pointer;
 	}
@@ -23,7 +21,6 @@
 		&::after {
 			transform: scaleX(1.4) scaleY(1.6);
 			opacity: 0;
-			/* set initial state for animation */
 			transition: all 0.6s;
 		}
 	}
@@ -52,10 +49,7 @@
 			background-color: green;
 		}
 	}
-	/* After pseudo element can be used for adding an element
-	like we already have, but behind the button. Content attribute
-	is always necessary as well as display. It is treated like a
-	child of the button, so it refers to the parent tag. */
+	
 	&::after {
 		content: "";
 		display: inline-block;

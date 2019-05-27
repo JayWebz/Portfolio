@@ -1,7 +1,7 @@
 .row {
 	max-width: $grid-width;
 	margin: 0 auto;
-	// Everything except the last-child
+
 	&:not(:last-child) {
 		margin-bottom: $gutter-vertical;
 
@@ -18,7 +18,7 @@
 	@include clearfix;
 
 	// Select any classes that begin with col-
-	// contains is *= and ends with is $=
+	// (contains is *= and ends with is $=)
 	[class^="col-"] {
 		float: left;
 
