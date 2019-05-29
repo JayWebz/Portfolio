@@ -5,6 +5,7 @@
 	.col-1-of-1 {
 		@include col1Of1;
 		top: -22rem;
+		right: 0;
 
 		@include respond(tab-port) {
 			max-width: 80rem;
@@ -21,6 +22,9 @@
 	}
 
 	.heading-secondary {
+		display: flex;
+		justify-content: center;
+
 		@include respond(tab-port) {
 			margin-top: 2rem;
 		}
