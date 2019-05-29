@@ -69,6 +69,7 @@
 	.col-1-of-1 {
 		@include col1Of1;
 		top: -32rem;
+		right: 0;
 
 		@include respond(tab-port) {
 			max-width: 80rem;
