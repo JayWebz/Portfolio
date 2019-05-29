@@ -26,10 +26,11 @@ class Card extends Component {
 						<div className="card__cta-details">
 							<p className="card__cta-tools">
 								Tools Used:
-								<ul className="card__cta-list">
-									{this.props.tools.split(',').map(el => <li key={this.props.tools[0]}>{el}</li>)}
-								</ul>
 							</p>
+							<ul className="card__cta-list">
+								{this.props.tools.split(',').map((el, index) => <li key={index}>{el}</li>)}
+							</ul>
+							
 						</div>
 						<Button buttonText="View Case Study" href={this.props.href} />
 					</div>

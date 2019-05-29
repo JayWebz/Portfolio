@@ -11,7 +11,7 @@ class Story extends Component {
   handleComponentType() {
     if (this.props.componentType === 'testimonial') {
       return <Testimonial 
-                headline="XX% increase in website conversions"
+                headline="42% increase in website conversions"
                 text='Working with Jon was (and continues to be) an outstanding experience. Since relaunching our website with his design ideas, services and recommendations, South Coast Surety has eperience a 42% increase in website conversions.'
                 name="PJ Eichten"
                 title="Director of Digital Marketing"
