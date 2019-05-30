@@ -15,7 +15,7 @@ class Work extends Component {
 				<SecondaryHeader headline="My recent work"/>
 				<div className="row">
 		            <div className="col-1-of-3">
-		              	<Card background={ {backgroundImage: `url(${process.env.PUBLIC_URL}/images/countdown.jpg)`} } 
+		              	<Card background={ {backgroundImage: `url(${process.env.PUBLIC_URL}/images/Countdown.jpg)`} } 
 		              		projectTitle="Countdown Trivia Game"
 		              		skills="HTML / Javascript"
 		              		description="A timed trivia game that delivers three random questions and scores based on speed."
