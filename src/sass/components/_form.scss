@@ -39,6 +39,10 @@
 
 	.heading-secondary {
 		margin-bottom: 2rem;
+
+		@include respond(phone-sm) {
+			font-size: 3.7rem;
+		}
 	}
 
 	@include respond(phone) {

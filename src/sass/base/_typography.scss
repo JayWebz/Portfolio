@@ -22,18 +22,28 @@ body {
 	backface-visibility: hidden;
 	color: transparent;
 	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-		-webkit-text-stroke-width: 3px;
-		-webkit-text-stroke-color: white;
-		line-height: 1;
-		letter-spacing: 1rem;
-		span {
-			-webkit-text-stroke-width: 0;
-			font-size: 12rem;
-			letter-spacing: 1.4rem;
-			background-image: linear-gradient(to right, $color-blue-gradient, $color-purple-gradient);
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+	line-height: 1;
+	letter-spacing: 1rem;
+	
+	span {
+		-webkit-text-stroke-width: 0;
+		font-size: 12rem;
+		letter-spacing: 1.4rem;
+		background-image: linear-gradient(to right, $color-blue-gradient, $color-purple-gradient);
 		display: inline-block;
 		-webkit-background-clip: text;	
+
+		@include respond(phone-sm) {
+			font-size: 7rem!important;
+		}
 	}
+
+	@include respond(phone-sm) {
+		font-size: 2.4rem!important;
+	}
+
 }
 
 .heading-secondary {
@@ -41,13 +51,22 @@ body {
 	font-size: 4.5rem;
 	color: #000;
 	text-align: center;
-	display: inline-block;
+	display: flex;
 	margin-left: 50%;
 	transform: translateX(-50%);
 	width: max-content;
+	overflow: hidden;
 
 	@include respond(phone) {
 		font-size: 4rem;
+	}
+
+	@include respond(phone-sm) {
+		display: inline-block;
+		margin-left: unset;
+		transform: translateX(0);
+		font-size: 4rem;
+		width: 100%;
 	}
 
 	&__letter-container {

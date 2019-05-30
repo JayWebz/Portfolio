@@ -6,6 +6,7 @@
 1800px + : 			Big Desktop
 
 $breakpoint Argument Choices:
+- phone-sm
 - phone
 - phone-md
 - phone-log
@@ -95,19 +96,33 @@ body {
     background-image: linear-gradient(to right, #48ccff, #af5dff);
     display: inline-block;
     -webkit-background-clip: text; }
+    @media only screen and (max-width: 21.875em) {
+      .heading-primary span {
+        font-size: 7rem !important; } }
+  @media only screen and (max-width: 21.875em) {
+    .heading-primary {
+      font-size: 2.4rem !important; } }
 
 .heading-secondary {
   font-family: 'Marvin Visions';
   font-size: 4.5rem;
   color: #000;
   text-align: center;
-  display: inline-block;
+  display: flex;
   margin-left: 50%;
   transform: translateX(-50%);
-  width: max-content; }
+  width: max-content;
+  overflow: hidden; }
   @media only screen and (max-width: 30em) {
     .heading-secondary {
       font-size: 4rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .heading-secondary {
+      display: inline-block;
+      margin-left: unset;
+      transform: translateX(0);
+      font-size: 4rem;
+      width: 100%; } }
   .heading-secondary__letter-container {
     display: inline-block;
     letter-spacing: 0.5rem; }
@@ -396,6 +411,9 @@ p {
           transform: scale(0.33) rotate(45deg); }
   .form .heading-secondary {
     margin-bottom: 2rem; }
+    @media only screen and (max-width: 21.875em) {
+      .form .heading-secondary {
+        font-size: 3.7rem; } }
   @media only screen and (max-width: 30em) {
     .form__group {
       text-align: center; } }
@@ -1104,6 +1122,9 @@ p {
       .section-contact .col-1-of-1 {
         padding: 0 3rem;
         margin-left: -3rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .section-contact .form-container {
+      margin-top: 18rem !important; } }
 
 .buzztime {
   max-width: 100%;

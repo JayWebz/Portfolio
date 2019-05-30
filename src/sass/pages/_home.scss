@@ -98,4 +98,10 @@
     		margin-left: -3rem;
 		}
 	}
+
+	.form-container {
+		@include respond(phone-sm) {
+			margin-top: 18rem!important;
+		}
+	}
 }
