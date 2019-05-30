@@ -24,7 +24,7 @@ class Footer extends Component {
 						<h4 className="footer__header">Professional Resources</h4>
 						<div className="footer__links">
 							<div className="footer__links-single">
-								<a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank" rel="noopener noreferrer">
+								<a href={process.env.PUBLIC_URL + "/Resume.pdf"} target="_blank" rel="noopener noreferrer">
 									<img src={process.env.PUBLIC_URL + "/images/footer/profile.png"} alt="Resumé"/>
 								</a>
 								<p>Resumé</p>
