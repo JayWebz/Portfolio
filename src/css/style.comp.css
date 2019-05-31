@@ -780,6 +780,9 @@ p {
         .header__content-box .heading-primary span {
           font-size: 8rem;
           letter-spacing: 0.9rem; } }
+    @media only screen and (max-width: 21.875em) {
+      .header__content-box {
+        top: 30%; } }
   .header__hex-background {
     position: relative;
     z-index: -100;
@@ -907,7 +910,8 @@ p {
   margin: 1rem; }
 
 .navigation__link:link, .navigation__link:visited {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-size: 3rem;
   font-weight: 300;
   padding: 1rem 2rem;
@@ -915,7 +919,7 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
-  background-size: 220%;
+  background-size: 280%;
   transition: all 0.4s; }
   .navigation__link:link span, .navigation__link:visited span {
     display: inline-block;
@@ -1011,10 +1015,19 @@ p {
 .pagenav__arrow {
   font-size: 4rem;
   color: #000; }
+  @media only screen and (max-width: 21.875em) {
+    .pagenav__arrow {
+      margin-top: 1rem; } }
 
 .dice-poker {
   max-width: 100%;
   overflow-x: hidden; }
+  @media only screen and (max-width: 46em) {
+    .dice-poker .section-hero__heading {
+      padding: 12rem 0 5rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .dice-poker .section-hero__heading {
+      font-size: 5rem !important; } }
   .dice-poker__content {
     background-image: linear-gradient(to right bottom, #54DB6C, #008417 67%);
     color: #fff; }
@@ -1065,6 +1078,9 @@ p {
         padding: 0 3rem;
         margin-left: -3rem;
         top: -28rem; } }
+    @media only screen and (max-width: 21.875em) {
+      .section-work .col-1-of-1 {
+        top: -33rem; } }
   .section-work .heading-secondary {
     display: flex;
     justify-content: center; }
@@ -1129,6 +1145,12 @@ p {
 .buzztime {
   max-width: 100%;
   overflow-x: hidden; }
+  @media only screen and (max-width: 46em) {
+    .buzztime .section-hero__heading {
+      padding: 12rem 0 5rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .buzztime .section-hero__heading {
+      font-size: 5rem !important; } }
   .buzztime__content {
     background-image: linear-gradient(to right bottom, #06c1ff, #00769D 67%);
     color: #fff; }
@@ -1157,6 +1179,12 @@ p {
   overflow-x: hidden; }
   .countdown .section-hero .heading-primary {
     -webkit-text-stroke-color: #000 !important; }
+    @media only screen and (max-width: 46em) {
+      .countdown .section-hero .heading-primary {
+        padding: 12rem 0 5rem; } }
+    @media only screen and (max-width: 21.875em) {
+      .countdown .section-hero .heading-primary {
+        font-size: 5rem !important; } }
   .countdown__content {
     background-image: linear-gradient(to right bottom, #FFD798, #ED9D1f 67%);
     color: #000; }
@@ -1183,6 +1211,12 @@ p {
 .ipyl {
   max-width: 100%;
   overflow-x: hidden; }
+  @media only screen and (max-width: 46em) {
+    .ipyl .section-hero__heading {
+      padding: 12rem 0 5rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .ipyl .section-hero__heading {
+      font-size: 4rem !important; } }
   .ipyl__content {
     background-image: linear-gradient(to right bottom, #06c49e, #007A62 67%);
     color: #fff; }
@@ -1209,6 +1243,12 @@ p {
 .mccd {
   max-width: 100%;
   overflow-x: hidden; }
+  @media only screen and (max-width: 46em) {
+    .mccd .section-hero__heading {
+      padding: 12rem 0 5rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .mccd .section-hero__heading {
+      font-size: 5rem !important; } }
   .mccd__content {
     background-image: linear-gradient(to right bottom, #FEB5B7 0%, #E55C60 67%, #A31B1E 100%);
     color: #fff; }
@@ -1235,6 +1275,12 @@ p {
 .scs {
   max-width: 100%;
   overflow-x: hidden; }
+  @media only screen and (max-width: 46em) {
+    .scs .section-hero__heading {
+      padding: 12rem 0 5rem; } }
+  @media only screen and (max-width: 21.875em) {
+    .scs .section-hero__heading {
+      font-size: 5rem !important; } }
   .scs__content {
     background-image: linear-gradient(to right bottom, #367FB6, #032946 67%);
     color: #fff; }
