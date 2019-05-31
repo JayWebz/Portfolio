@@ -77,7 +77,8 @@
   &__link {
     &:link,
     &:visited {
-      display: inline-block;
+      display: flex;
+      justify-content: center;
       font-size: 3rem;
       font-weight: 300;
       padding: 1rem 2rem;
@@ -85,7 +86,7 @@
       text-decoration: none;
       text-transform: uppercase;
       background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
-      background-size: 220%;
+      background-size: 280%;
       transition: all 0.4s;
 
       span {

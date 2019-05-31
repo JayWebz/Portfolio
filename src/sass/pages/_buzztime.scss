@@ -1,6 +1,16 @@
 .buzztime {
 	max-width: 100%;
 	overflow-x: hidden; 
+
+	& .section-hero__heading {
+		@include respond(phone-md) {
+			padding: 12rem 0 5rem;
+		}
+		
+		@include respond(phone-sm) {
+			font-size: 5rem!important;
+		}
+	}
 	
 	&__content {
 		background-image: linear-gradient(to right bottom, $color-bzt-blue-light, $color-bzt-blue-dark 67%);

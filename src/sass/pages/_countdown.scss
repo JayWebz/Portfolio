@@ -4,6 +4,14 @@
 
 	& .section-hero .heading-primary {
 		-webkit-text-stroke-color: $color-black!important;
+
+		@include respond(phone-md) {
+			padding: 12rem 0 5rem;
+		}
+		
+		@include respond(phone-sm) {
+			font-size: 5rem!important;
+		}
 	}
 	
 	&__content {

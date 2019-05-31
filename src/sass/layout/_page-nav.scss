@@ -55,5 +55,9 @@
 	&__arrow {
 		font-size: 4rem;
 		color: $color-black;
+
+		@include respond(phone-sm) {
+			margin-top: 1rem;
+		}
 	}
 }

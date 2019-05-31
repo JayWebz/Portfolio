@@ -23,6 +23,10 @@
     		margin-left: -3rem;
     		top: -28rem;
 		}
+
+		@include respond(phone-sm) {
+			top: -33rem;
+		}
 	}
 
 	.heading-secondary {
