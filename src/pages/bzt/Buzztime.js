@@ -16,8 +16,8 @@ class Buzztime extends Component {
 					style={heroGradient}/>
 				<Overview overview="I develop for a suite of websites and apps that help market Buzztime to businesses and engage the customers of those businesses."
 						myRole="Web Developer"
-						context="Full-Time"
-						year='Digital Marketing: 2013 - 2016 &mdash; Web Development: 2016 - Present'/>
+						context={<React.Fragment>Full-Time: 2013 - 2019<br/>Contract: 2019 - Present</React.Fragment>}
+						year={<React.Fragment>Digital Marketing: 2013 - 2016<br/>Web Development: 2016 - Present</React.Fragment>}/>
 				<div className="buzztime__content">
 					<Content />
 					<Button buttonText="View Website" href="https://www.buzztime.com" onClick={this.initiateProgram}/>
