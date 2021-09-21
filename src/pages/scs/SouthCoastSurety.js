@@ -16,7 +16,7 @@ class SouthCoastSurety extends Component {
 					style={heroGradient}/>
 				<Overview overview="A custom-themed wordpress website with the primary purpose to generate leads and disseminate information about surety bonds."
 						myRole="Web Designer/Developer"
-						context="Freelance"
+						context="Contract"
 						year="2018"/>
 				<div className="scs__content">
 					<Content />
