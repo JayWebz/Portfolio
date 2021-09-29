@@ -1207,12 +1207,12 @@ p {
     align-items: center;
     flex-direction: row;
     max-width: 70rem;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 6rem; }
     @media only screen and (max-width: 40em) {
       .caida__links {
         flex-direction: column;
-        justify-content: center;
-        padding-bottom: 6rem; } }
+        justify-content: center; } }
     .caida__links .btn {
       width: max-content; }
       @media only screen and (max-width: 40em) {

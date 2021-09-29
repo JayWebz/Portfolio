@@ -56,11 +56,11 @@
     flex-direction: row;
     max-width: 70rem;
     margin: 0 auto;
+    padding-bottom: 6rem;
 
     @include respond(phone-lg) {
       flex-direction: column;
       justify-content: center;
-      padding-bottom: 6rem;
     }
 
 
