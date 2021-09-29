@@ -12,7 +12,7 @@ class Caida extends Component {
 			<div className="caida">
 				<Hero heading="CAIDA"
 					alt="CAIDA"
-					image={`${process.env.PUBLIC_URL}/images/BZT_Devices.png`}
+					image={`${process.env.PUBLIC_URL}/images/CAIDA_Devices.png`}
 					style={heroGradient}/>
 				<Overview overview="At the Center for Applied Internet Data Analysis (CAIDA), I Designed and Developed two data-driven applications from
 ideation to launch; one that detects and visualizes macroscopic
