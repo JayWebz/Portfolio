@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './css/style.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+if (window.location.pathname !== "/.well-known/pki-validation/053933CDC3FA6B5501AEB52C6B945C47.txt") {
+    ReactDOM.render(<App />, document.getElementById('root'));
+}
+
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';

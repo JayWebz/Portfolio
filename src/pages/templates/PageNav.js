@@ -26,38 +26,44 @@ class PageNav extends Component {
 					linkPrev: '/mira-costa-college-dance',
 					linkNext: '/iplayyoulisten'
 				});
-				break; 
+				break;
 			case '/iplayyoulisten' :
 				this.setState({
 					linkPrev: '/countdown',
 					linkNext: '/dice-poker'
 				});
-				break; 
+				break;
 			case '/dice-poker' :
 				this.setState({
 					linkPrev: '/iplayyoulisten',
-					linkNext: '/buzztime'
+					linkNext: '/caida'
 				});
-				break; 
-			case '/buzztime' :
+				break;
+			case '/caida' :
 				this.setState({
 					linkPrev: '/dice-poker',
+					linkNext: '/buzztime'
+				});
+				break;
+			case '/buzztime' :
+				this.setState({
+					linkPrev: '/caida',
 					linkNext: '/south-coast-surety'
 				});
-				break; 
+				break;
 			case '/south-coast-surety' :
 				this.setState({
 					linkPrev: '/buzztime',
-					linkNext: '/mira-costa-college-dance'
-				});
-				break; 
-			case '/mira-costa-college-dance' :
-			default:
-				this.setState({
-					linkPrev: '/south-coast-surety',
 					linkNext: '/countdown'
 				});
-				break; 
+				break;
+			// case '/mira-costa-college-dance' :
+			// default:
+			// 	this.setState({
+			// 		linkPrev: '/south-coast-surety',
+			// 		linkNext: '/countdown'
+			// 	});
+			// 	break;
 		}
 	}
 
@@ -65,14 +71,14 @@ class PageNav extends Component {
 		return (
 			this.props.history.location.pathname !== '/' ?
 				<div className="pagenav">
-					<Link className="pagenav__left" 
+					<Link className="pagenav__left"
 						to={this.state.linkPrev}
 						onClick={this.updateURLs}>
 						<div className="pagenav__arrow">
 							<SecondaryHeader  headline="«"/>
 						</div>
 					</Link>
-					<Link className="pagenav__right" 
+					<Link className="pagenav__right"
 						to={this.state.linkNext}
 						onClick={this.updateURLs}>
 						<div className="pagenav__arrow">

@@ -42,6 +42,11 @@ class Navigation extends Component {
 				    			Interactive Dice Poker
 			    			</Link>
 		    			</li>
+						<li className="navigation__item">
+							<Link className="navigation__link" to="/caida" onClick={() => this.toggleMenu()}>
+								CAIDA
+							</Link>
+						</li>
 				    	<li className="navigation__item">
 				    		<Link className="navigation__link" to="/buzztime" onClick={() => this.toggleMenu()}>
 				    			Buzztime
@@ -50,11 +55,6 @@ class Navigation extends Component {
 		    			<li className="navigation__item">
 				    		<Link className="navigation__link" to="/south-coast-surety" onClick={() => this.toggleMenu()}>
 				    			South Coast Surety
-			    			</Link>
-		    			</li>
-		    			<li className="navigation__item">
-				    		<Link className="navigation__link" to="/mira-costa-college-dance" onClick={() => this.toggleMenu()}>
-				    			Mira Costa College Dance
 			    			</Link>
 		    			</li>
 				    </ul>
